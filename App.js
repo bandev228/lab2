@@ -8,7 +8,6 @@ export default function App() {
   const [currentNumber, setCurrentNumber] = useState('');
   const [lastNumber, setLastNumber] = useState('');
 
-  // Danh sách các nút trên máy tính
   const buttons = [
     'C', 'CE', 'DEL', '%', 
     '1/x', 'x^2', '√x', '/', 
@@ -131,8 +130,8 @@ export default function App() {
       borderColor: darkMode ? '#3f4d5b' : '#e5e5e5',
       alignItems: 'center',
       justifyContent: 'center',
-      width: '25%', // Đảm bảo mỗi nút chiếm 1/4 chiều rộng
-      height: 80, // Chiều cao nút cố định để đồng đều
+      width: '25%',
+      height: 80,
       borderWidth: 0.5,
     },
     textButton: {
